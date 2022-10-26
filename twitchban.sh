@@ -2,7 +2,7 @@
 
 SOURCE="$(dirname ${BASH_SOURCE[0]})/banlist.txt"
 
-echo -n "Starting in 5 seconds..."
+echo -n "Starting in 5 seconds...
 for i in `seq 5`; do
     sleep 1
     echo -n .
@@ -18,3 +18,4 @@ while IFS="" read -r p || [ -n "$p" ]; do
     xdotool key Return
     sleep 0.2
 done < "$SOURCE"
+tried (money$)
